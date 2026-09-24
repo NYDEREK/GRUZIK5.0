@@ -1,0 +1,9 @@
+<resources>
+    <color name="robot_bg">#111418</color>
+    <color name="robot_panel">#1E242B</color>
+    <color name="robot_text">#F4F7FA</color>
+    <color name="robot_muted">#AAB4BF</color>
+    <color name="robot_accent">#38BDF8</color>
+    <color name="robot_start">#20A565</color>
+    <color name="robot_stop">#D64545</color>
+</resources>
