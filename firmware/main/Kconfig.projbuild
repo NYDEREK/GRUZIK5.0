@@ -1,0 +1,26 @@
+menu "GRUZIK5"
+
+    config GRUZIK_WIFI_SSID
+        string "Access point SSID"
+        default "GRUZIK5"
+
+    config GRUZIK_WIFI_PASSWORD
+        string "Access point password (8+ characters)"
+        default "gruzik5.0"
+
+    config GRUZIK_WIFI_CHANNEL
+        int "Access point channel"
+        range 1 13
+        default 6
+
+    config GRUZIK_TCP_PORT
+        int "TCP command port"
+        default 3333
+
+    config GRUZIK_IMU_ENABLED
+        bool "Use the ICM-42688-P gyro(s)"
+        default n
+        help
+            Without an IMU, odometry uses encoder yaw only.
+
+endmenu

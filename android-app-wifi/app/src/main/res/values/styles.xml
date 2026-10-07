@@ -1,0 +1,9 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowBackground">@color/gruzik_bg</item>
+        <item name="android:statusBarColor">@color/gruzik_bg</item>
+        <item name="android:navigationBarColor">@color/gruzik_bg</item>
+        <item name="android:colorAccent">#ECECEE</item>
+    </style>
+</resources>

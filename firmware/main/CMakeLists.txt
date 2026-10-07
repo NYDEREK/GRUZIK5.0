@@ -1,0 +1,35 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "analog.c"
+        "line_sensors.c"
+        "battery.c"
+        "motors.c"
+        "encoders.c"
+        "imu.c"
+        "odometry.c"
+        "line_follower.c"
+        "route_map.c"
+        "storage.c"
+        "link.c"
+        "commands.c"
+        "robot.c"
+        "telemetry.c"
+        "console.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        esp_adc
+        esp_driver_gpio
+        esp_driver_ledc
+        esp_driver_pcnt
+        esp_driver_spi
+        esp_driver_usb_serial_jtag
+        esp_event
+        esp_netif
+        esp_timer
+        esp_wifi
+        fatfs
+        lwip
+        nvs_flash
+        wear_levelling
+)

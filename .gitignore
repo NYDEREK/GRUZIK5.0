@@ -1,11 +1,18 @@
-# PlatformIO
-firmware/.pio/
+# ESP-IDF (sdkconfig is generated from sdkconfig.defaults)
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
 
 # Android / Gradle local output
 android-app/.gradle/
 android-app/build/
 android-app/app/build/
 android-app/local.properties
+android-app-wifi/.gradle/
+android-app-wifi/build/
+android-app-wifi/app/build/
+android-app-wifi/local.properties
 
 # OS files
 .DS_Store
